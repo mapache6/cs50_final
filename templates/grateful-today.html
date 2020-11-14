@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Be Grateful Today
+{% endblock %}
+
+{% block main %}
+<!--<body style="text-align: center; background-color: MistyRose;">-->
+<div style="background-image: url('/static/rose.jpg');">
+<br><br>
+<a href="/">Return to Homepage</a>
+<h1 style="text-align: center; color: teal;">Hi {{username}}, what do you feel grateful for today?</h1>
+<form action="/grateful-today" method="post">
+    <input type="text" id="flowers" name="comment" maxlength="150" size="75">
+    <br><br>
+    <input type="Submit" value="Plant Your Gratitude Seedling" style="color: RebeccaPurple">
+</form>
+<br><br>
+<h4 class="secretsauce">“Be thankful for what you have; you’ll end up having more. If you concentrate on what you don’t have, you will never, ever have enough.” —Oprah Winfrey</h3>
+<img src="/static/rose.jpg" alt="single pink rose" style="width: 50%">
+<body style="background-color:MistyRose;">
+
+{% endblock %}

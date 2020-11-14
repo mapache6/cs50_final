@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Walk in Your Gratitude Garden
+{% endblock %}
+
+{% block main %}
+<body style="color: orange; background-color: darkseagreen; text-align: center;">
+    <a href="/">Return to Homepage</a>
+    <h1>You are cultivating a garden of gratitude.</h1>
+    <h2>Everyday, see a new flower bloom.</h2>
+    {% for i in range(0, FlowerCount) %}
+        <img src="/static/blooming.png" alt="blooming rose" style="width: 7%">
+    {% endfor %}
+    <p>Gardening is a way of life</p>
+    {% for commentAndDate in CommentsAndDates %}
+        <img src="/static/seed.png" alt="seed" style="width: 5%">
+        <p>{{commentAndDate}}</p>
+    {% endfor %}
+    <img src="/static/bug.jpg" alt="monarch butterflies on lanvender flowers" style="width: 50%">
+</body>
+{% endblock %}

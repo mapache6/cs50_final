@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Watering Your Gratitude Garden
+{% endblock %}
+
+{% block main %}
+<body style="text-align: center; background-color: Indigo;">
+    <a href="/"> Return to Homepage</a>
+    <br><br>
+    <h1 style="color: Bisque; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;">Watering your garden.</h1>
+    <h2 class="title">“Gratitude is the fairest blossom which springs from the soul.” – Henry Ward Beecher.</h2>
+    <h4 class="secretsauce">When you take action to express your gratitude, it waters your garden and helps your flowers grow!</h4>
+    <br><br>
+    <p>Click if you...</p>
+    <form action="/watering" method="post">
+        <button class="button button5" type="submit">Told Someone Why You Are Thankful</button>
+    </form>
+    <p>Click if you...</p>
+    <form action="/watering" method="post">
+    <button class="button button5">Commemorated Your Gratitude</button>
+    </form>
+    <p>Click if you...</p>
+    <form action="/watering" method="post">
+    <button class="button button5">Expressed Your Gratitude through an Act Of Kindness</button>
+    </form>
+    <br><br>
+    <img src="/static/watering.jpg" alt="watering a green garden" style="width: 50%">
+</body>
+{% endblock %}

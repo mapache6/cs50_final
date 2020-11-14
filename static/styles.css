@@ -1,0 +1,110 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+
+/*from original gratitude garden*/
+.title
+{
+    color: LightSeaGreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secretsauce
+{
+    color: LightCoral;
+    font-family: Courier, monospace;
+    font-size: 20;
+    text-align: center;
+}
+
+p
+{
+    font-size: large;
+    color: MediumVioletRed;
+}
+
+#romantic
+{
+    color: SlateBlue;
+}
+
+#flowers
+{
+    border: 5px solid Teal;
+}
+
+nav .navbar-brand .DarkViolet
+{
+    color: DarkViolet;
+}
+
+.mynavbar
+{
+    color: LemonChiffon;
+    background-color: MediumPurple;
+    /*font-family: Courier, monospace;*/
+    /*font-size: 20;*/
+    /*text-align: center;*/
+}
+
+
+.button
+{
+  background-color: SteelBlue;
+  border: dotted;
+  color: WhiteSmoke;
+  padding: 25px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button5
+{
+ border-radius: 50%;
+}
